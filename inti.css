@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar-item,
+  .navbar-center,
+  .navbar-right {
+    float: left;
+    padding: 16px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .navbar-center {
+    float: none; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  
+  
+  
+.content1 {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    padding: 20px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .anggota-kelompok {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .anggota-kelompok h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .anggota-kelompok ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .anggota-kelompok li {
+    margin-bottom: 5px;
+  }
+  
+  .video-container {
+    width: 70%;
+  }
+  .video-container video {
+    max-width: 100%;
+    max-height: 70vh;
+  }
+
+  .content2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    padding: 20px;
+    font-size:1.5em;
+  }
+  
+  .materi-inti ol  {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .video-container {
+    width: 50%;
+  }
+  
+  .materi-inti {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .materi-inti h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .materi-inti ol {
+    padding-left: 20px;
+  }
+  
+  .materi-inti li {
+    margin-bottom: 5px;
+  }
+  .content3 {
+    display: flex;
+    align-items: center;
+    font-size:large;
+    padding: 20px;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .materi-inti {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .materi-inti h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .materi-inti p {
+    list-style-type: none;
+    padding: 0;
+  }
+  .materi-inti h2  {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  .video-container {
+    width: 40%;
+  }
+  .video-container video {
+    max-width: 100%;
+    max-height: 80vh;
+  }
+
+ 
+
+.content4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.terima-kasih {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.terima-kasih h2 {
+  font-size: 4em;
+  color: white;
+  animation: colorChange 3s infinite, shapeChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  20% {
+    color: yellow;
+  }
+  50% {
+    color:aqua;
+  }
+  70%{
+    color:blue;
+  }
+  100% {
+    color: rgb(121, 17, 17);
+  }
+}
+
+@keyframes shapeChange {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
